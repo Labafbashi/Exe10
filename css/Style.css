@@ -1,0 +1,78 @@
+* {
+  font-family: monospace;
+  font-size: 22px;
+  color: #00fff7;
+  align-content: center;
+  background-position: center;
+}
+
+body {
+  background-image: url("../img/Background.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 100%;
+  text-align: center;
+}
+
+#top {
+  background-color: transparent;
+  background-image: url("../img/top.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-top: 9rem;
+}
+#divForm1 {
+  height: 13rem;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: transparent;
+  background-image: url("../img/down.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 9rem;
+}
+
+textarea {
+  width: 700px;
+  height: 230px;
+  background: transparent;
+  border-radius: 10px;
+  border: none;
+  resize: none;
+}
+
+textarea::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+textarea::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(185, 185, 185, 0.3);
+  box-shadow: inset 0 0 6px rgba(185, 185, 185, 0.3);
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background-color: rgba(36, 24, 41, 0.558);
+  outline: none;
+}
+
+input[type="text"] {
+  background: fixed #c4bfbf;
+  border: none;
+  border-radius: 20px;
+}
+
+input {
+  background: transparent;
+}
+input:-internal-autofill-selected {
+  background: transparent;
+}
+
+input[type="submit"] {
+  background: fixed #c4bfbf;
+  border-radius: 20px;
+  color: black;
+}
